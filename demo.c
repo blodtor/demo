@@ -1,7 +1,24 @@
+/**
+ Демо програмаа на C
+*/
 #include <stdio.h>
+int j = 0;
+
+/**
+ Сложение 
+ x - пераое число
+ y - второе число
+ return x + y
+*/
+int f(int x, int y) {
+ int c = 0;
+ c = x + y;
+ return c;
+}
+
 int main(int argc, char * argv []) {
-    printf("\tПривет ретро консольщики!\n");
-    int j = 0;
+    printf("\tПривет ретро консольщики! 2 + 2 = %i \n", f(2, 2));
+
     do {
         if (j > 0) { 
             // если j > 0 значит это параметр переданый программе
