@@ -17,7 +17,7 @@ int f(int x, int y) {
 }
 
 int main(int argc, char * argv []) {
-    printf("\tПривет ретро консольщики! 2 + 2 = %i \n", f(2, 2));
+    printf("\tПривет ретро консольщики! 3 + 3 = %i \n", f(3, 3));
 
     do {
         if (j > 0) { 
