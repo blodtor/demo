@@ -17,15 +17,15 @@ int f(int x, int y) {
 }
 
 int main(int argc, char * argv []) {
-    printf("\tПривет ретро консольщики! 3 + 3 = %i \n", f(3, 3));
+    printf("\tHello retro console people! 3 + 3 = %i \n", f(3, 3));
 
     do {
         if (j > 0) { 
             // если j > 0 значит это параметр переданный программе
-            printf("Параметр %i = %s\n", j, argv[j]);
+            printf("Parameter %i = %s\n", j, argv[j]);
         } else if (j == 0) {
             // если j <= 0 то это имя программы
-            printf("Имя программы: %s\n", argv[j]);
+            printf("Program name: %s\n", argv[j]);
         }
         j++; // j = j + 1;
     } while (j < argc);
