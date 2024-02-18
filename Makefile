@@ -20,4 +20,7 @@ demo.exe:
 demo:
 	gcc -o demo demo.c
 
-
+# сборка приложения setpixel.exe с помащю утилиты wcl которая запустит wcc и wlink
+wcl:
+	wcl -i=/opt/openwatcom/h -bt=dos setpixel.c
+	dosbox-x -conf dosbox.conf
